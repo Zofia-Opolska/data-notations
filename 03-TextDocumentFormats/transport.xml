@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <transportlist> 
+        <transport type="bus" publicUse="yes">
+            <fuel>xxx</fuel>
+            <amountofspaces>zzz </amountofspaces>
+            <brand>yyy</brand>
+            <MaxSpeed>ooo</MaxSpeed>
+        </transport>
+        <transport type="train" publicUse="yes">
+            <fuel>xxx</fuel>
+            <amountofspaces>zzz </amountofspaces>
+            <brand>yyy</brand>
+            <MaxSpeed>ooo</MaxSpeed>
+        </transport>
+        <transport type="bike" publicUse="no">
+            <fuel>xxx</fuel>
+            <amountofspaces>zzz </amountofspaces>
+            <brand>yyy</brand>
+            <MaxSpeed>ooo</MaxSpeed>
+        </transport>
+    </transportlist>
