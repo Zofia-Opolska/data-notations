@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +11,37 @@
     <form>
         <label for="fname">First Name:</label><br>
         <input type="text" id="fname" name="fname"><br><br>
-        
+
         <label for="lname">Last Name:</label><br>
         <input type="text" id="lname" name="lname"><br><br>
-        
+
         <label for="age">Age:</label><br>
+
         <input type="number" id="age" name="age"><br><br>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+        <label for="pob">Place of Birth:</label><br>
+        <input type="text" id="pob" name="pob"><br><br>
+
+        <label for="ilnesses">Ilnesses:</label><br>
+
+        <input type="checkbox" id="diabetes" name="ilnesses" value="diabetes">
+        <label for="diabetes">Diabetes</label><br>
+
+        <input type="checkbox" id="hypertension" name="ilnesses" value="hypertension">
+        <label for="hypertension">Hypertension</label><br>
+
+        <input type="checkbox" id="asthma" name="ilnesses" value="asthma">
+        <label for="asthma">Asthma</label><br>
         
-        <label >Gender:</label><br>
+        <input type="checkbox" id="allergies" name="ilnesses" value="allergies">
+        <label for="allergies">Allergies</label><br><br>
+
+        <label for="notes">Notes:</label><br>
+        <textarea id="notes" name="notes" rows="4" cols="50"></textarea><br><br>
+
+
+        <label>Gender:</label><br>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
@@ -25,12 +49,13 @@
 
         <label for="height">Height (cm):</label><br>
         <input type="number" id="height" name="height"><br><br>
-        
+
         <label for="weight">Weight (kg):</label><br>
         <input type="number" id="weight" name="weight"><br><br>
-        
+
         <button type="button">Ok</button>
         <button type="button">Cancel</button>
     </form>
 </body>
+
 </html>
